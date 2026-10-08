@@ -1,0 +1,77 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    :root{
+        
+    }
+    .container{
+        width: 95%;
+        max-width: 1300px;
+        margin: 0 auto;
+        background-color: aqua;
+    }
+    h1{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden
+    }
+    header{
+        background-color: var(--corPrincipal);
+        font-family: var(--fonthanken);
+    }
+    .header_container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 120px;
+    }
+    .box_busca{
+        position: relative;
+    
+    
+    }
+     .box_busca svg{
+        width: 20px;
+        position: absolute;
+        fill: #747878;
+     }
+
+     .box_busca input{
+        padding-bottom: 5px;
+        padding-left: 25px;
+        background-color: transparent;
+        border: none;
+        border-bottom: solid 1px #a9a9a9;
+        font-size: 20px;
+     }
+
+     .box_busca input:focus{
+        outline: none;
+     }
+
+    .link_inicio{
+        color: #3d3c3ccc;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        justify-content: space-between;
+    }
+
+
+    .link_inicio hr{
+        margin-top: 7px;
+        width: 100px;
+        background-color: var(--corDourada);
+        border: none;
+        height: 1px;
+    }
+
+
+    /* ------------BOTÃO DO MENU--------- */
+
